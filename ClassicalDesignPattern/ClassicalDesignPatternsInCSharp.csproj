@@ -8,8 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CreationalPatterns\AbstractFactory\UnitTests\" />
-    <Folder Include="StructuralPatterns\Strategy\" />
+    <Compile Remove="CreationalPatterns\AbstractFactory\UnitTests\**" />
+    <EmbeddedResource Remove="CreationalPatterns\AbstractFactory\UnitTests\**" />
+    <None Remove="CreationalPatterns\AbstractFactory\UnitTests\**" />
   </ItemGroup>
 
   <ItemGroup>
